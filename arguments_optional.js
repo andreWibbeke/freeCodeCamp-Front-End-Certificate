@@ -1,3 +1,5 @@
+//https://www.freecodecamp.com/challenges/arguments-optional
+
 function addTogether() {
   //Variable and subroutine declaration (optional, but makes code cleaner)
   var args = arguments;
