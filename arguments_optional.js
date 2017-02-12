@@ -8,7 +8,7 @@ function addTogether() {
   }
 
   //Actual program: relies on implicit return of 'undefined'
-  //Note: while refactoring I remove curly braces if not required
+  //Note: when refactoring I remove curly braces if not required
   if (isNum(a)) {
     if (isNum(b))
       return a + b;
