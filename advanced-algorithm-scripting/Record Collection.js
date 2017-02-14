@@ -5,6 +5,7 @@ function updateRecords(id, prop, value) {
   //instead of having large conditions using logical operators, I'm using a more readable, simple if/else logic
   if (value) {
     if (prop == "tracks") {
+      //alternate, more "explicit" expression: if (collection[id].hasOwnProperty(prop))
       if (collection[id][prop])
         collection[id][prop].push(value);
       else
