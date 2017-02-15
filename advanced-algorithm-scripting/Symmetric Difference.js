@@ -1,8 +1,9 @@
 //https://www.freecodecamp.com/challenges/symmetric-difference
 
 /*jshint esversion: 6 */
+//Using [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-//Refactored version: using [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+//Refactored version:
 function sym(params) {
   var args = Array.prototype.slice.call(arguments); //turn arguments object into an Array
   return args.reduce((a, b) =>
@@ -14,7 +15,7 @@ function sym(params) {
 //Inital version:
 function sym(params) {
   var args = Array.prototype.slice.call(arguments);
-  return args.reduce(function(a, b) {
+  return args.reduce((a, b) => {
     //remove dubplicates from b first (not a because you provide '[]' as inital value)
     var testArr = [];
     b = b.filter(el => {
