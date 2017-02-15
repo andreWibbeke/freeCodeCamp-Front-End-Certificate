@@ -1,7 +1,7 @@
 //https://www.freecodecamp.com/challenges/symmetric-difference
 
 /*jshint esversion: 6 */
-//Using [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+//Using Arrow functions
 
 //Refactored version:
 function sym(params) {
