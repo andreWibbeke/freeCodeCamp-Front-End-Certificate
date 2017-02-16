@@ -15,7 +15,7 @@ var currency = [
   ["TWENTY", 2000.00],
   ["ONE HUNDRED", 10000.00]
 ];
-//helper function to check if sufficient cash for change is in the drawer
+//helper function to check if sufficient cash is left in the drawer to give back as change
 function enoughFund(drawer, change) {
   var sum = drawer.filter((el, i) => currency[i][1] < change);
   return sum.reduce((a, b) => {
